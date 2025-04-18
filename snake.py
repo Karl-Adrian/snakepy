@@ -16,3 +16,6 @@ else:
     print("Game Started")
 
 #start game window
+
+pygame.display.set_caption("Snake Game")
+game_window = pygame.display.set_mode((frame_size_x,frame_size_y))
